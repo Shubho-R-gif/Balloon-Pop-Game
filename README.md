@@ -50,8 +50,6 @@ A **fun and interactive** balloon popping game built with **React**, **Vite**, a
 
 ## 📜 License  
 
-This project is **open-source** and available under the **MIT License**.  
-
 📄 See the full **[LICENSE](MIT-LICENSE)** file for more details.  
 
 ---
