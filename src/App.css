@@ -39,9 +39,11 @@ body {
   .hg.score {
     margin-top: 10px;
     margin-right: 250px;
+    font-weight: bold;
   }
   .gamescore {
     margin-right: 300px;
+    font-weight: bold;
   }
   .drawballoonboom {
     margin: 0;
@@ -82,9 +84,11 @@ body {
   .hg.score {
     margin-top: 10px;
     margin-right: 250px;
+    font-weight: bold;
   }
   .gamescore {
     margin-right: 300px;
+    font-weight: bold;
   }
   .drawballoonboom {
     margin: 0;
@@ -124,9 +128,11 @@ body {
   .hg.score {
     margin-top: 10px;
     margin-right: 230px;
+    font-weight: bold;
   }
   .gamescore {
     margin-right: 280px;
+    font-weight: bold;
   }
   .drawballoonboom {
     margin: 0;
@@ -166,9 +172,11 @@ body {
   .hg.score {
     margin-top: 10px;
     margin-right: 210px;
+    font-weight: bold;
   }
   .gamescore {
     margin-right: 260px;
+    font-weight: bold;
   }
   .drawballoonboom {
     margin: 0;
@@ -203,14 +211,16 @@ body {
     border-radius: 0;
   }
   .toggle_btn {
-    left: 85%;
+    left: 86%;
   }
   .hg.score {
     margin-top: 10px;
-    margin-right: 210px;
+    margin-right: 200px;
+    font-weight: 550;
   }
   .gamescore {
     margin-right: 260px;
+    font-weight: 550;
   }
   .drawballoonboom {
     margin: 0;
@@ -219,7 +229,7 @@ body {
     z-index: 1;
     top: 0;
     border-radius: 0;
-    width: 375px;
+    width: 360px;
     overflow: hidden;
   }
 }
@@ -264,12 +274,14 @@ body {
     padding: 6px;
     margin-top: 10px;
     margin-right: 180px;
+    font-weight: bold;
   }
   .gamescore {
     margin-top: 5px;
     font-size: 1rem;
     padding: 6px;
     margin-right: 220px;
+    font-weight: bold;
   }
   .drawballoonboom {
     margin: 0;
