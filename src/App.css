@@ -1,0 +1,284 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(360deg, #7613c8, #1f474e);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 780px) {
+  .game_interface {
+    margin: 0 auto;
+    border-radius: 0;
+  }
+  .gamelogo {
+    left: 42%;
+  }
+  .play_btn {
+    top: 44%;
+  }
+  .setting.box {
+    top: 44%;
+  }
+  .creatortitle {
+    margin-top: 0px;
+  }
+  .game_board {
+    margin: 0 auto;
+    border-radius: 0;
+    max-width: 430px;
+  }
+  .toggle_btn {
+    left: 50%;
+  }
+  .hg.score {
+    margin-top: 10px;
+    margin-right: 250px;
+  }
+  .gamescore {
+    margin-right: 300px;
+  }
+  .drawballoonboom {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    border-radius: 0;
+    width: 430px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 430px) {
+  .game_interface {
+    margin: 0;
+    border-radius: 0;
+  }
+  .gamelogo {
+    left: 42%;
+  }
+  .play_btn {
+    top: 44%;
+  }
+  .setting.box {
+    top: 44%;
+  }
+  .creatortitle {
+    margin-top: 0px;
+  }
+  .game_board {
+    margin: 0;
+    border-radius: 0;
+    max-width: 430px;
+  }
+  .toggle_btn {
+    left: 85%;
+  }
+  .hg.score {
+    margin-top: 10px;
+    margin-right: 250px;
+  }
+  .gamescore {
+    margin-right: 300px;
+  }
+  .drawballoonboom {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    border-radius: 0;
+    width: 430px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 395px) {
+  .game_interface {
+    margin: 0;
+    border-radius: 0;
+  }
+  .gamelogo {
+    left: 42%;
+  }
+  .play_btn {
+    top: 44%;
+  }
+  .setting.box {
+    top: 44%;
+  }
+  .creatortitle {
+    margin-top: 0px;
+  }
+  .game_board {
+    margin: 0;
+    border-radius: 0;
+  }
+  .toggle_btn {
+    left: 89%;
+  }
+  .hg.score {
+    margin-top: 10px;
+    margin-right: 230px;
+  }
+  .gamescore {
+    margin-right: 280px;
+  }
+  .drawballoonboom {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    border-radius: 0;
+    width: 380px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 380px) {
+  .game_interface {
+    margin: 0;
+    border-radius: 0;
+  }
+  .gamelogo {
+    left: 42%;
+  }
+  .play_btn {
+    top: 44%;
+  }
+  .setting.box {
+    top: 44%;
+  }
+  .creatortitle {
+    margin-top: 0px;
+  }
+  .game_board {
+    margin: 0;
+    border-radius: 0;
+  }
+  .toggle_btn {
+    left: 85%;
+  }
+  .hg.score {
+    margin-top: 10px;
+    margin-right: 210px;
+  }
+  .gamescore {
+    margin-right: 260px;
+  }
+  .drawballoonboom {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    border-radius: 0;
+    width: 380px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 360px) {
+  .game_interface {
+    margin: 0;
+    border-radius: 0;
+  }
+  .gamelogo {
+    left: 42%;
+  }
+  .play_btn {
+    top: 44%;
+  }
+  .setting.box {
+    top: 44%;
+  }
+  .creatortitle {
+    margin-top: 0px;
+  }
+  .game_board {
+    margin: 0;
+    border-radius: 0;
+  }
+  .toggle_btn {
+    left: 85%;
+  }
+  .hg.score {
+    margin-top: 10px;
+    margin-right: 210px;
+  }
+  .gamescore {
+    margin-right: 260px;
+  }
+  .drawballoonboom {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    border-radius: 0;
+    width: 375px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 320px) {
+  .game_interface {
+    margin: 0;
+    border-radius: 0;
+  }
+  .game.title1 {
+    font-size: 3rem;
+  }
+
+  .game.title2 {
+    font-size: 3rem;
+    margin-right: 200px;
+  }
+  .gamelogo {
+    top: 3px;
+    left: 36%;
+  }
+  .play_btn {
+    top: 44%;
+  }
+  .setting.box {
+    top: 44%;
+  }
+  .creatortitle {
+    margin-top: 60px;
+  }
+  .madebytitle {
+    font: 0.9em sans-serif;
+  }
+  .game_board {
+    margin: 0;
+    border-radius: 0;
+  }
+  .toggle_btn {
+    left: 80%;
+  }
+  .hg.score {
+    font-size: 1rem;
+    padding: 6px;
+    margin-top: 10px;
+    margin-right: 180px;
+  }
+  .gamescore {
+    margin-top: 5px;
+    font-size: 1rem;
+    padding: 6px;
+    margin-right: 220px;
+  }
+  .drawballoonboom {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    border-radius: 0;
+    width: 320px;
+    overflow: hidden;
+  }
+}

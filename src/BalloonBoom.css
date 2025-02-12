@@ -1,0 +1,12 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.drawballoonboom {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 1;
+}

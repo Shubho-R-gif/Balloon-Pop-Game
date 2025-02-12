@@ -1,0 +1,264 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(360deg, #7613c8, #1f474e);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Game start Ui */
+.game_interface {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  min-height: 700px;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 20px;
+  background: url("./assets/wallpaper.jpg") no-repeat fixed center;
+  animation: loopBackg 2s ease 1;
+  box-shadow: 12px 12px 100px;
+}
+
+.game {
+  position: relative;
+  font-size: 4rem;
+  font-weight: 400;
+}
+.game.title1 {
+  margin-right: 120px;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+}
+.game.title2 {
+  margin-right: 220px;
+  color: rgb(204, 27, 157);
+  margin-top: 0;
+}
+.gamelogo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.balloonimg {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+  transform: translateY(-60px);
+}
+
+.play_btn {
+  position: absolute;
+  top: 45%;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 14px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  background: rgba(137, 43, 226, 0.36);
+  backdrop-filter: blur(10px);
+}
+
+.setting_btn {
+  position: absolute;
+  top: 52%;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 14px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background: unset;
+  color: rgb(0, 0, 0);
+  transition: all 0.6s ease;
+}
+
+.play_btn:hover,
+.setting_btn:hover {
+  background-color: rgb(208, 43, 226);
+  color: white;
+  transition: all 0.6s ease;
+}
+
+.setting.box {
+  width: 100px;
+  height: 105px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  background-color: rgb(255, 255, 255);
+}
+
+.togglemusic_btn {
+  font-size: 1.6rem;
+  color: rgb(16, 170, 179);
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+
+.togglemusic_btn:hover {
+  background-color: rgb(218, 216, 214);
+  transition: all 0.6s ease;
+}
+
+.creatortitle {
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  margin-top: 70px;
+}
+.madebytitle {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/*GAME PLAY Ui */
+.game_board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  min-height: 700px;
+  margin: 20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  background: url("./assets/wallpaper.jpg") no-repeat center fixed;
+  box-shadow: 20px 20px 80px;
+}
+
+.hg.score {
+  position: relative;
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-right: 240px;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+  padding: 4px;
+  border-radius: 10px;
+  background: rgba(237, 237, 228, 0.626);
+}
+
+.gamescore {
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-right: 290px;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+  padding: 4px;
+  border-radius: 10px;
+  background: rgba(237, 237, 228, 0.626);
+}
+
+.highlight1 {
+  color: red;
+  font-weight: bold;
+}
+.highlight2 {
+  color: rgb(15, 170, 15);
+  font-weight: bold;
+}
+.toggle_btn {
+  font-size: 2rem;
+  color: rgb(226, 94, 46);
+  padding: 10px;
+  position: absolute;
+  left: 60%;
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.messagebox {
+  padding: 10px;
+  border-radius: 12px;
+  width: 150px;
+  height: 70px;
+  background-color: white;
+  margin-top: 200px;
+}
+
+.mainmenu_btn {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 200;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(110, 93, 222);
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+.mainmenu_btn:hover {
+  background-color: orange;
+  color: white;
+  transition: all 0.6s ease;
+}
+
+.gameovercard {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.gameovertitle {
+  color: orangered;
+  font: 1.4em sans-serif;
+  font-weight: 550;
+  padding: 6px;
+}
+
+.restartbtn {
+  font: 1.2em sans-serif;
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff3c3c;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.restartbtn:hover {
+  background-color: #08741e;
+  transition: all 0.4s ease;
+}
+.restartbtn:active {
+  background-color: #c0e906;
+  transition: all 0.4s ease;
+  color: black;
+}
+
+@keyframes loopBackg {
+  from {
+    background-position: center top;
+  }
+  to {
+    background-position: center;
+  }
+}
