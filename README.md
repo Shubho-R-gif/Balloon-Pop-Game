@@ -44,7 +44,7 @@ A **fun and interactive** balloon popping game built with **React**, **Vite**, a
 ## Screenshots
 
 ## **Main Interface**
-![Main Interface](Balloonpop.jpeg)
+![Main Interface](src/assets/Balloonpop.jpeg)
 
 ---
 
