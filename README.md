@@ -1,11 +1,6 @@
 # 🎈 Balloon Pop Game  
 
 A **fun and interactive** balloon popping game built with **React**, **Vite**, and **Konva**. Pop balloons, avoid the **Boom**, and challenge yourself to beat your high score!  
-
-<p align="center">
-  <img src="assets/screenshot.png" alt="Balloon Pop Game Screenshot" width="600"/>
-</p>
-
 ---
 
 ## 🚀 Features  
@@ -46,11 +41,10 @@ A **fun and interactive** balloon popping game built with **React**, **Vite**, a
 
 ---
 
-## 📸 Screenshot  
+## Screenshots
 
-<p align="center">
-  <img src="assets/screenshot.png" alt="Balloon Pop Gameplay" width="600"/>
-</p>
+## **Main Interface**
+![Main Interface](Balloonpop.jpeg)
 
 ---
 
